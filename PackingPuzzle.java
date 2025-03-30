@@ -14,7 +14,7 @@ public class PackingPuzzle {
             { { 0, 0 }, { 1, 0 }, { 1, 1 }, { 1, 2 } }, // Piece 8: Triple L-shape up (8)
             { { 0, 0 }, { 0, 1 }, { 0, 2 }, { 1, 1 } }, // Piece 9: Quad T-shape (9)
             { { 0, 0 }, { 0, 1 }, { 1, 1 }, { 1, 2 } }, // Piece 10: Quad Z-shape (10)
-            { { 0, 0 }, { 0, 1 }, { 1, 1 }, { 1, 2 } } // Piece 11: Quad Z-shape rotated (11)
+            { { 0, 1 }, { 0, 2 }, { 1, 0 }, { 1, 1 } } // Piece 11: Quad Z-shape rotated (11)
     };
 
     public static int[][] packingPuzzle(int[] pieces, int size) throws Exception {
